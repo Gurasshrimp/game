@@ -1,0 +1,188 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": "闔上的心扉"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "速通弩力",
+                  "color": "dark_aqua"
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:multishot",
+                  "minecraft:quick_charge"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "最高級的黑色鐵劍"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "合金黑劍",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "name": "",
+                    "amount": 10,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 30,
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "name": "",
+                    "amount": 7,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "傳說屠龍者使用這把劍打敗了保麗龍"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "高級屠龍劍",
+                  "color": "gold"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:knockback"
+                ]
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "name": "",
+                    "amount": 5,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "minecraft:generic.max_health",
+                    "name": "",
+                    "amount": 5,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "勇者之劍",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "勇者無懼的象徵"
+                  },
+                  {
+                    "text": "是商店買來的藍色木劍"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
