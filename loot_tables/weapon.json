@@ -11,6 +11,10 @@
               {
                 "function": "minecraft:set_name",
                 "name": "闔上的心扉"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Damage:335}"
               }
             ]
           }

@@ -105,13 +105,13 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{custom_potion_effects:[{id:\"minecraft:speed\",amplifier:2b,duration:400}]}"
+              "tag": "{custom_potion_effects:[{id:\"minecraft:speed\",amplifier:2b,duration:200}]}"
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "20秒加速"
+                  "text": "10秒加速"
                 }
               ]
             }
