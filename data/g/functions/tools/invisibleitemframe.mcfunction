@@ -1,1 +1,1 @@
-give @p item_frame{EntityTag:{Invisible:1b}} 
+give @p item_frame{EntityTag:{Invisible:1b}} 1
