@@ -150,7 +150,9 @@
           "functions": [
             {
               "function": "minecraft:set_enchantments",
-              "enchantments": {}
+              "enchantments": {
+                "minecraft:punch": 1
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -176,7 +178,9 @@
           "functions": [
             {
               "function": "minecraft:set_enchantments",
-              "enchantments": {}
+              "enchantments": {
+                "minecraft:protection": 2
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -191,7 +195,9 @@
           "functions": [
             {
               "function": "minecraft:set_enchantments",
-              "enchantments": {}
+              "enchantments": {
+                "minecraft:protection": 2
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -206,7 +212,9 @@
           "functions": [
             {
               "function": "minecraft:set_enchantments",
-              "enchantments": {}
+              "enchantments": {
+                "minecraft:protection": 2
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -221,7 +229,9 @@
           "functions": [
             {
               "function": "minecraft:set_enchantments",
-              "enchantments": {}
+              "enchantments": {
+                "minecraft:protection": 2
+              }
             },
             {
               "function": "minecraft:set_count",
