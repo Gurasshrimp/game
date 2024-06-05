@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand] run effect give @s glowing 60 255 true
